@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'neo:reveal-js',
+  name: 'lsgoulart:reveal-js',
   summary: 'Reveal.js - HTML Presentation Framework',
   version: '3.1.0',
   git: 'https://github.com/lsgoulart/meteor-reveal-js.git'
@@ -9,8 +9,9 @@ Package.onUse(function (api) {
   api.versionsFrom('1.0');
   api.addFiles([
 	'reveal.js/css/theme/beige.css',
+	'reveal.js/css/theme/black.css',
 	'reveal.js/css/theme/blood.css',
-	'reveal.js/css/theme/default.css',
+	'reveal.js/css/theme/league.css',
 	'reveal.js/css/theme/moon.css',
 	'reveal.js/css/theme/night.css',
 	'reveal.js/css/theme/serif.css',
@@ -18,12 +19,9 @@ Package.onUse(function (api) {
 	'reveal.js/css/theme/sky.css',
 	'reveal.js/css/theme/solarized.css',
 	'reveal.js/lib/css/zenburn.css',
-	'reveal.js/lib/font/league_gothic_license',
-	'reveal.js/lib/font/league_gothic-webfont.eot',
-	'reveal.js/lib/font/league_gothic-webfont.svg',
-	'reveal.js/lib/font/league_gothic-webfont.ttf',
-	'reveal.js/lib/font/league_gothic-webfont.woff'
-  ], 'client', { isAsset: true });
+	'reveal.js/lib/font/league-gothic/league-gothic.css',
+	'reveal.js/lib/font/source-sans-pro/source-sans-pro.css',
+  ], 'client', { addAssets: true });
 
   api.addFiles([
 	'reveal.js/js/reveal.js',
