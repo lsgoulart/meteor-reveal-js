@@ -6,7 +6,7 @@ This Meteor package adds the Reveal.js JavaScript and CSS files to the client.
 Installation
 ------------
 
-`meteor add neo:reveal-js`
+`meteor add lsgoulart:reveal-js`
 
 
 Usage
@@ -80,7 +80,7 @@ You can import one of the built-in theme files, as follow:
 
 ```html
 <head>
-  <link rel="stylesheet" href="/packages/neo_reveal-js/reveal.js/css/theme/<theme_name>.css" id="theme"/>
+  <link rel="stylesheet" href="/packages/lsgoulart/reveal.js/css/theme/<theme_name>.css" id="theme"/>
 </head>
 ```
 
@@ -101,7 +101,7 @@ For example:
 
 ```html
 <head>
-  <link rel="stylesheet" href="/packages/neo_reveal-js/reveal.js/css/theme/moon.css" id="theme"/>
+  <link rel="stylesheet" href="/packages/lsgoulart/reveal.js/css/theme/moon.css" id="theme"/>
 </head>
 ```
 
