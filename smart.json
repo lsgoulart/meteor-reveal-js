@@ -2,7 +2,7 @@
   "name": "reveal-js",
   "description": "Reveal.js - HTML Presentation Framework",
   "homepage": "http://lab.hakim.se/reveal-js/",
-  "author": "Lsgoulart",
+  "author": "lsgoulart",
   "version": "2.6.2",
   "git": "https://github.com/lsgoulart/meteor-reveal-js.git",
   "packages": {}
