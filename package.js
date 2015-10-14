@@ -1,8 +1,8 @@
 Package.describe({
   name: 'neo:reveal-js',
   summary: 'Reveal.js - HTML Presentation Framework',
-  version: '2.6.2',
-  git: 'https://github.com/neo-technologies/meteor-reveal-js.git'
+  version: '3.1.0',
+  git: 'https://github.com/lsgoulart/meteor-reveal-js.git'
 });
 
 Package.onUse(function (api) {
