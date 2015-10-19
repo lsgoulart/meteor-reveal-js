@@ -1,12 +1,12 @@
 Package.describe({
   name: 'lsgoulart:reveal-js',
   summary: 'Reveal.js - HTML Presentation Framework',
-  version: '3.1.0',
+  version: '3.1.1',
   git: 'https://github.com/lsgoulart/meteor-reveal-js.git'
 });
 
 Package.onUse(function (api) {
-  api.versionsFrom('1.0.1');
+  api.versionsFrom('1.1');
   api.addFiles([
 	'reveal.js/css/theme/beige.css',
 	'reveal.js/css/theme/black.css',
