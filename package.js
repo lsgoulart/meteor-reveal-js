@@ -18,6 +18,7 @@ Package.onUse(function (api) {
 	'reveal.js/css/theme/simple.css',
 	'reveal.js/css/theme/sky.css',
 	'reveal.js/css/theme/solarized.css',
+	'reveal.js/css/theme/white.css',
 	'reveal.js/lib/css/zenburn.css',
 	'reveal.js/lib/font/league-gothic/league-gothic.css',
 	'reveal.js/lib/font/source-sans-pro/source-sans-pro.css',
