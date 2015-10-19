@@ -6,7 +6,7 @@ Package.describe({
 });
 
 Package.onUse(function (api) {
-  api.versionsFrom('1.0');
+  api.versionsFrom('1.0.1');
   api.addFiles([
 	'reveal.js/css/theme/beige.css',
 	'reveal.js/css/theme/black.css',
@@ -22,7 +22,7 @@ Package.onUse(function (api) {
 	'reveal.js/lib/css/zenburn.css',
 	'reveal.js/lib/font/league-gothic/league-gothic.css',
 	'reveal.js/lib/font/source-sans-pro/source-sans-pro.css',
-  ], 'client', { addAssets: true });
+], 'client', { isAssets: true });
 
   api.addFiles([
 	'reveal.js/js/reveal.js',
